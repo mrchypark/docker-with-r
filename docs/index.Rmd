@@ -51,7 +51,7 @@ class: inverse
 
 class: inverse
 
-## 발표자 소개
+<br>
 .center[
   ### .pen-p[질문 / 상담 / 잡담 대환영!]
 ]
@@ -72,7 +72,6 @@ class: inverse
   * [데이터 분석을 위한 중급 R 프로그래밍](http://www.fastcampus.co.kr/data_camp_dabrp/)
 - R 네이버 뉴스 크롤러 [N2H4](https://github.com/forkonlp/N2H4) 관리자
   * [ForkonLP](https://forkonlp.github.io/) 프로젝트
-  * 뉴스 약 3천만건으로 wordvec 모델 공개 예정
   
   
 - .yellow[**KAKAO**]@[알코홀릭](http://pf.kakao.com/_RXANd) R 질문방
@@ -221,6 +220,78 @@ class: inverse
 
 ![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic.png?raw=true)
 
+---
+class: inverse
+![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic01.png?raw=true)
+---
+class: inverse
+![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic02.png?raw=true)
+---
+class: inverse
+![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic03.png?raw=true)
+---
+class: inverse
+![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic04.png?raw=true)
+---
+class: inverse
+![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic05.png?raw=true)
+---
+class: inverse
+![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic06.png?raw=true)
+---
+class: inverse
+![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic07.png?raw=true)
+---
+class: inverse
+![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic08.png?raw=true)
+---
+class: inverse
+![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic09.png?raw=true)
+---
+class: inverse
+![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic10.png?raw=true)
+---
+class: inverse
+![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic11.png?raw=true)
+---
+class: inverse
+![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic12.png?raw=true)
+---
+class: inverse
+![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic13.png?raw=true)
+---
+class: inverse
+![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic14.png?raw=true)
+---
+class: inverse
+![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic15.png?raw=true)
+---
+class: inverse
+![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic16.png?raw=true)
+---
+class: inverse
+![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic17.png?raw=true)
+---
+class: inverse
+![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic18.png?raw=true)
+---
+class: inverse
+![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic19.png?raw=true)
+---
+class: inverse
+![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic20.png?raw=true)
+---
+class: inverse
+![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic21.png?raw=true)
+---
+class: inverse
+![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic22.png?raw=true)
+---
+class: inverse
+![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic23.png?raw=true)
+---
+class: inverse
+![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic24.png?raw=true)
 
 
 
