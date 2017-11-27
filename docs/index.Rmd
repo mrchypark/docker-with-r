@@ -217,7 +217,9 @@ class: inverse
 ---
 class: inverse
 
+## Kitematic 소개
 
+![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic.png?raw=true)
 
 
 
