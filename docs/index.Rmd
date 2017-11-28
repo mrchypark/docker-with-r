@@ -40,12 +40,18 @@ class: inverse
 1. 발표자 소개
 
 2. 도커 소개
+    - 가상화란
+    - 컨테이너란
+    - 기초 용어 소개
 
 3. Kitematic으로 시작하기
+    - Kitematic
+    - 이미지 검색
+    - 컨테이너 생성
+    - 서버 사용하기
+    - 볼륨 설정
 
 4. Terminal에서 사용하기
-    
-5. 용어 정리
 
 ---
 
@@ -266,54 +272,117 @@ home 화면으로 돌아가 접속 주소 확인
 ![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic13.png?raw=true)
 ---
 class: inverse
+브라우저에서 실행확인 - rstudio/rstudio
 ![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/rsserver.png?raw=true)
 ---
 class: inverse
+로그인 완료!
 ![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/rsserver02.png?raw=true)
 ---
 class: inverse
+kitematic 폴더 확인
 ![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/rsfolder.png?raw=true)
 ---
 class: inverse
-
+그럼 tenserflow는?
 ![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic14.png?raw=true)
 ---
 class: inverse
+다운로드
 ![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic15.png?raw=true)
 ---
 class: inverse
+web preview
 ![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic16.png?raw=true)
 ---
 class: inverse
-![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic17.png?raw=true)
----
-class: inverse
-![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic18.png?raw=true)
----
-class: inverse
+token 복사
 ![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic19.png?raw=true)
 ---
 class: inverse
+login
 ![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic20.png?raw=true)
 ---
 class: inverse
+welcome to jupyter
 ![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic21.png?raw=true)
 ---
 class: inverse
+hellow tensorflow
 ![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic22.png?raw=true)
+
+---
+class: center, middle, title-slide, inverse
+## [konlp][konlp]의 자바 세팅이 힘들다면??
+
+### [mrchypark/konlp][konlpdocker] 를 검색해 보세요!
+
+
+[konlp]: https://github.com/haven-jeon/KoNLP
+[konlpdocker]: https://hub.docker.com/r/mrchypark/konlp/
+
 ---
 class: inverse
-![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic23.png?raw=true)
+## 공식 이미지 제공
+
+유명 회사에서 자신들의 제품을 쉽게 사용할 수 있게 공식적이고 항상 최신버전을 유지하는 이미지를 제공
+
+- rocker : rstudio 팀의 rstudio & tidyverse 등 패키지가 미리 세팅되어 있는 이미지 제공
+- tensorflow : 개발 버전 포함 py3, gpu 버전 등 nvidia-docker와 함께 지속적으로 제공
+- 각 데이터 베이스 이미지 대부분 지원(심지어 [oracle][oracle]도!)
+- 필요하면 만들면 됨(Dockerfile - linux를 좀 알면...)
+
+
+[oracle]: https://github.com/oracle/docker-images
+
 ---
 class: inverse
-![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic24.png?raw=true)
+
+## rocker의 이미지를 사용할 때 좋은 점
+
+- 사용하는 사람들 모두 환경이 완전히 일치함
+    - encoding 이슈 등 통일된 해결책을 유지할 수 있음
+    - 문제 상황에 대해 재현을 보장할 수 있음
+        1. commit 해서 이미지를 공유
+        1. 이미지 버전과 코드를 공유
+
+  
+- 항상 안정화된 최신 버전을 사용할 수 있음.
+    - latest 태그는 항상 최신 버전을 확인함.
+    - 이미지에서 문제를 해결하면 이미지를 사용하는 사람들 모두 다시 문제를 겪지 않아도 됨
+    
+---
+class: center, middle, title-slide, inverse
+
+![](http://mblogthumb2.phinf.naver.net/20150128_89/kimsdky_1422426953109P25hE_JPEG/KakaoTalk_20141021_160816600.jpg?type=w2)
+---
+class: center, middle, title-slide, inverse
+## 이제 터미널에서 사용해보자
+
+---
+class: inverse
+docker-cli 클릭
+![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/cli.png?raw=true)
+---
+class: inverse
+terminal 환경
+![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/terminal.png?raw=true)
+---
+class: inverse
+docker ps 명령 확인
+![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/dockerps.png?raw=true)
+---
+class: middle, title-slide, inverse
+
+## 컨테이너를 실행해 보자
+
+```{}
+docker run hello-world
+```
 
 
+---
 
-
-
-
-
-
+![](https://subicura.com/assets/article_images/2017-01-19-docker-guide-for-beginners-2/docker-host.png)
 
 
