@@ -222,45 +222,60 @@ class: inverse
 
 ---
 class: inverse
-![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic01.png?raw=true)
----
-class: inverse
+실행화면 - virtualbox로 실행됨
 ![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic02.png?raw=true)
 ---
 class: inverse
+실행 홈
 ![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic03.png?raw=true)
 ---
 class: inverse
+이미지 검색 - rocker/tidyverse
 ![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic04.png?raw=true)
 ---
 class: inverse
+create 선택
 ![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic05.png?raw=true)
 ---
 class: inverse
-![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic06.png?raw=true)
----
-class: inverse
+이미지 다운로드 중
 ![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic07.png?raw=true)
 ---
 class: inverse
+실행됨
 ![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic08.png?raw=true)
 ---
 class: inverse
+setting 화면
 ![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic09.png?raw=true)
 ---
 class: inverse
+Volumes 설정
 ![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic10.png?raw=true)
 ---
 class: inverse
+Change 클릭 후 프로젝트 폴더 선택
 ![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic11.png?raw=true)
 ---
 class: inverse
+local folder 설정 확인
 ![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic12.png?raw=true)
 ---
 class: inverse
+home 화면으로 돌아가 접속 주소 확인
 ![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic13.png?raw=true)
 ---
 class: inverse
+![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/rsserver.png?raw=true)
+---
+class: inverse
+![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/rsserver02.png?raw=true)
+---
+class: inverse
+![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/rsfolder.png?raw=true)
+---
+class: inverse
+
 ![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/kitematic14.png?raw=true)
 ---
 class: inverse
