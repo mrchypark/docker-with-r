@@ -380,6 +380,11 @@ class: middle, title-slide, inverse
 docker run hello-world
 ```
 
+---
+class: inverse
+helloworld
+
+![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/helloworld.png?raw=true)
 
 ---
 
