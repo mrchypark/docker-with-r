@@ -371,14 +371,6 @@ terminal 환경
 class: inverse
 docker ps 명령 확인
 ![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/dockerps.png?raw=true)
----
-class: middle, title-slide, inverse
-
-## 컨테이너를 실행해 보자
-
-```{}
-docker run hello-world
-```
 
 ---
 class: inverse
@@ -399,9 +391,80 @@ docker version
 ---
 class: inverse
 
-## host와 client
+## client와 host
 
 ![](https://subicura.com/assets/article_images/2017-01-19-docker-guide-for-beginners-2/docker-host.png)
+
+---
+class: middle, title-slide, inverse
+
+## 컨테이너를 실행해 보자
+
+```{}
+docker run hello-world
+```
+
+---
+## 실행 명령 구조
+
+```{}
+docker run [OPTIONS] IMAGE[:TAG|@DIGEST] [COMMAND] [ARG...]
+```
+
+### 주요 옵션
+
+&lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:center;"&gt; 옵션 &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; 설명 &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; -d &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; detached mode 흔히 말하는 백그라운드 모드 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; -p &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 호스트와 컨테이너의 포트를 연결 (포워딩) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; -v &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 호스트와 컨테이너의 디렉토리를 연결 (마운트) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; --name &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 컨테이너 이름 설정 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; -rm &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 프로세스 종료시 컨테이너 자동 제거 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:center;"&gt; -ti &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -i와 -t를 동시에 사용한 것으로 터미널 입력을 위한 옵션 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+---
+class: center, middle, title-slide, inverse
+## 아 됐고!
+
+![](http://file2.instiz.net/data/file2/2015/10/15/6/6/7/66754086a69077c7ff4c79e9251de896.jpg)
+
+---
+class: inverse
+
+## ubuntu:16.04 실행하고 사용해 보기
+
+```{}
+docker run -it --name myfirstubuntu ubuntu:16.04 bash
+```
+
+
+![](https://github.com/mrchypark/docker-with-r/blob/master/docs/img/ubuntu.png?raw=true)
     </textarea>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
 <script>var slideshow = remark.create({
